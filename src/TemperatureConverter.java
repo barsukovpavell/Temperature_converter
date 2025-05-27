@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TemperatureConverter {
 
-    public static String getConversionType(){
+    public static String getConversionType() {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("C - цельсий в фаренгейт.");
@@ -10,10 +10,10 @@ public class TemperatureConverter {
         return scan.next();
     }
 
-    public static double getTemperature(){
+    public static double getTemperature() {
         Scanner scan = new Scanner(System.in);
         System.out.println("Введите температуру: ");
         double temp = scan.nextDouble();
-        return  temp;
+        return temp;
     }
 }
